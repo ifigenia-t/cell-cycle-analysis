@@ -614,6 +614,9 @@ def calcFisherG(combined_time_course_info, norm_method, raw = False, phospho = F
     utils = rpackages.importr('utils')
     # select a mirror for R packages
     utils.chooseCRANmirror(ind=1) # select the first mirror in the list
+    utils.install_packages("pak")
+    ro.r('library(pak)')
+    ro.r('pak::pkg_install(c("Matrix@1.6-5", "MatrixModels"), ask = FALSE)')
     packnames = ('perARMA', 'quantreg')
     # Selectively install what needs to be install.
     names_to_install = [x for x in packnames if not rpackages.isinstalled(x)]

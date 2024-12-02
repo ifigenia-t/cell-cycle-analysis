@@ -36,7 +36,10 @@ A detailed description of CCdb usage and output is provided on the help page (ht
 * Docker
 
 ### Build docker image
+To build a Docker image from the provided Dockerfile run the following steps:
 ```shell
+git clone git@github.com:ifigenia-t/cell-cycle-analysis.git
+cd cell-cycle-analysis
 docker build -t python-r-latest .
 ```
 ### Run the Time Course analyser

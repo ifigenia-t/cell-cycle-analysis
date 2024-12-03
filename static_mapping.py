@@ -17,7 +17,6 @@ data_files = {
 		"Mitotic_Exit_Proteome":"mitotic_exit_Req93_07JUN2022.tdt",
 		"Mitotic_Exit_Phospho":"mitotic_exit_Req93-CR-Davey_IMAC_rep_27JUN22_PeptideGroups.tdt",
 		"cached_dataset": "complete_dataset.json",
-		# "cached_dataset_rega": "rega_protein_list.json",
 		"cached_index_protein_names":"total_protein_index.json",
 		"cached_TimeCourse_Full_Info": "TimeCourse_Full_info.json",
 		"cached_Mitotic_Exit_Full_Info": "Mitotic_Exit_Full_Info.json",

@@ -1,6 +1,5 @@
 
 
-
 ## Table of contents
 * [Description](#Description)
 * [Cell Cycle Database Web server](#CellCycle-DB-Web-server)
@@ -90,6 +89,6 @@ This source code is licensed under the MIT license found in the `LICENSE` file i
 ## Reference
 If you find the pipeline or the data useful in your research, we ask that you cite our paper:
 
-*"Camilla Rega, Ifigenia Tsitsa, Theodoros I. Roumeliotis, Izabella Krystkowiak, Maria Portillo, Lu Yu, Julia Vorhauser, Jonathon Pines, Joerg Mansfeld, Jyoti Choudhary, Norman E. Davey **High resolution profiling of cell cycle-dependent protein and phosphorylation abundance changes in non-transformed cells**.*
+*"Camilla Rega, Ifigenia Tsitsa, Theodoros I. Roumeliotis, Izabella Krystkowiak, Maria Portillo, Lu Yu, Julia Vorhauser, Jonathon Pines, Joerg Mansfeld, Jyoti Choudhary, Norman E. Davey **High resolution profiling of cell cycle-dependent protein and phosphorylation abundance changes in non-transformed cells**."*
 
  [DOI: 10.1101/2024.06.20.599917](https://doi.org/10.1101/2024.06.20.599917)

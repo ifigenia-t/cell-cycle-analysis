@@ -57,7 +57,9 @@ docker run -it --rm -v $(pwd):/app/cell python-r-latest cell_cycle_mitotic_exit_
 
 The pipeline will produce 2 files:
 - `TimeCourse_Full_info.json`: .JSON file containing the results of the Time Course experiment analysis.
+  Download here: https://github.com/ifigenia-t/cell-cycle-analysis/blob/main/TimeCourse_Full_info.json
 - `Mitotic_Exit_Full_Info.json`: .JSON file containing the results of the Mitotic Exit and Serum Starvation experiments analysis.
+  Download here: https://github.com/ifigenia-t/cell-cycle-analysis/blob/main/Mitotic_Exit_Full_Info.json
 
 The combined data includes cell cycle abundance changes for proteins and phosphorylation sites across the Time Course, Mitotic Exit, and Serum Starvation datasets, 
 along with their respective statistical metrics and cell cycle dependency status. 

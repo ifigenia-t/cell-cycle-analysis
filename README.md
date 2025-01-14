@@ -65,8 +65,9 @@ The combined data includes cell cycle abundance changes for proteins and phospho
 along with their respective statistical metrics and cell cycle dependency status. 
 Both the Proteome and Phosphoproteome analyses are included in each file.
 
-#### Output file example format
+Each .json is split by protein and each protein contains the raw and normalised abundances. All statistical analysis is stored under 'metrics'. 'Confidence' refers to the MS experimental confidence metrics and 'protein_info' stores all annotations for each protein (e.g. localisation). The same abundance and metrics information are provided for every phosphorylation site as well. 
 
+#### Output file example format
 ```
 {
    "Q09666":	

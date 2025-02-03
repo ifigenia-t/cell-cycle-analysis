@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/889982618.svg)](https://doi.org/10.5281/zenodo.14796049)
 
 ## Table of contents
 * [Description](#Description)
